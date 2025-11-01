@@ -14,4 +14,4 @@ app.get("/get-data", function (req, res) {
   });
 });
 
-app.listen(4000, () => console.log("server started"));
+app.listen(4000, "0.0.0.0", () => console.log("server started"));
